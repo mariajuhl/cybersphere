@@ -10,7 +10,7 @@
     background-color: #E7E7E7;
 }
 
-/*"Fade reveal" effekt på sektioner*/
+/*"Fade reveal" effekt på citat sektion*/
 .fadeReveal {
     opacity: 0;
     visibility: hidden;
@@ -24,6 +24,7 @@
     padding-top: 5px;
 }
 
+/*Teksten i navigationsbaren*/
 .navigationsbar > div > :nth-child(1) {
     padding-right: 10px;
     list-style-type: none;
@@ -34,6 +35,7 @@
     transition: color 0.4s ease-in-out;
 }
 
+/*Gør at navigationsbaren "sidder fast" i midten af højre side.*/
 .navigationsbar {
     position: fixed;
     right: 0;
@@ -41,6 +43,8 @@
     padding-right: 20px;
   }
   
+
+/*Farveskift på navigationsbaren når den når ned til "bølgen"*/
   .navigationsbar.has-scrolled-to-wave > div > :nth-child(1) {
     color: #FAA900;
   }
@@ -76,8 +80,9 @@
 /*----------------------------- Forside -----------------------------*/
 
 .heroSektion {
-    width: 45%;
+    width: 40%;
     margin: auto;
+    text-align: center;
 }
 
 .bølge {
@@ -90,7 +95,7 @@
 .pil {
     position:absolute;
     bottom:5px;
-    left: 45%;
+    left: 48%;
     animation: bounce 2s infinite;
 }
   
@@ -115,11 +120,17 @@
 }
 
 .citat {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
     margin: auto;
+    text-align: center;
+    margin-top: 16%;
+    margin-bottom: 25%;
+}
+
+.citat > h4 {
+    font-size: 25px;
+    width: 90%;
+    margin: auto;
+    padding-top: 30px;
 }
 
 .tidslinje {
@@ -150,6 +161,12 @@
     color: #2D3F5E;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.tidslinje > svg > text {
+    word-wrap: break-word;
+    line-height: 1.2;
+    white-space: pre-line;
 }
 
 .voresKunder {
@@ -201,9 +218,9 @@
 }
 
 .marginTop {
-    margin-top: 20px;
+    margin-top: 50px;
 }
-  
+
 
 /*----------------------------- Webudvikling -----------------------------*/ 
 
@@ -320,11 +337,12 @@ h3 {
     color: #2D3F5E;
 }
 
-h4 {
+.footer > div > p, .footer > div > a, h4 {
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 200;
     color: #FAA900;
+    padding-top: 15px;
 }
 
 h5 {
@@ -334,7 +352,7 @@ h5 {
     font-weight: bold;
 }
 
-p {
+p, label {
     font-size: 17px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 200;
@@ -347,8 +365,9 @@ p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 200;
     fill: #E7E7E7;
+    line-height: 2;
 }
 
 .mindreFont {
-    font-size:5vw;
+    font-size:4.5vw;
 }

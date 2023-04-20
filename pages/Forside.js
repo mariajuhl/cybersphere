@@ -50,11 +50,11 @@ export default function Forside() {
     return (
       <main>
         <section className="heroSektion">
-          <h1>Cybersphere</h1>
-          <h3>
+          <h1 id="heroTekst">Cybersphere</h1>
+          <p>
             Hos Cybersphere designer og udvikler vi kreative digitale løsninger
-            med fokus på bæredygtighed.
-          </h3>
+            med fokus på bæredygtighed
+            </p>
         </section>
 
         <a href="#citat" className="pil">
@@ -73,10 +73,20 @@ export default function Forside() {
         <Navigation hasScrolledToWave={hasScrolledToWave} />
 
         <section className="mainSektion">
-          <div className="padding" id="citat"></div>
+          <div id="citat"></div>
 
           <div className="fadeReveal citat">
-              <h4>Ligesom universet kan bæredygtighed være en uhåndgribelig størrelse - så lad os være din ledestjerne, der viser vejen mod en grønnere fremtid.</h4>
+            <h4>Ligesom universet kan bæredygtighed være en uhåndgribelig størrelse - 
+            så lad Cybersphere være din ledestjerne, der viser vejen mod en grønnere fremtid.  
+            </h4>
+
+            <h4>
+            Vi er et stærkt team med over 20 års erfaring inden for kreativt webdesign, og har i de seneste 5 år specialiseret os i at kombinere det bæredygtige aspekt med et lækkert design i vores kunders digitale løsninger. 
+            </h4>
+        
+            <h4>
+            Vores mission er at gøre vores del for at skabe en mere bæredygtig og grønnere fremtid, og vi står klar til at lede din virksomhed i den rigtige retning!             
+            </h4>
           </div>
 
           <div class="tidslinje">
@@ -86,19 +96,129 @@ export default function Forside() {
               <line id="Line_11" data-name="Line 11" x2="47" transform="translate(0 1000)" fill="none" stroke="#e7e7e7" stroke-width="2"/>
               <line id="Line_12" data-name="Line 12" x2="47" transform="translate(0 2045)" fill="none" stroke="#e7e7e7" stroke-width="2"/>
               
-              <text x="5" y="1">
-                <tspan class="tidslinjeOverskrift" id="problem" x="70" dy="0.8em">Problem</tspan>
-                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">Beskrivelse af første linje.</tspan>
-              </text>
-  
+              <text x="5" y="1" xmlns="http://www.w3.org/2000/svg">
+                <tspan class="tidslinjeOverskrift" id="internettet" x="70" dy="0.8em">Internettet er en
+                </tspan>
+
+                <tspan class="tidslinjeOverskrift" x="70" dy="1em">klimasynder
+                </tspan>
+                
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="4em">
+                  “Hvis internettet var et land, ville det være det 4. største.”
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                  Internettet har en stor påvirkning på miljøet, da det kræver 
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                  store mængder af energi at drive de datacentre, der leverer 
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                  internettet rundt i verden. Det er derfor vigtigt, at vi som 
+                </tspan>
+                  
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                  samfund bliver mere bevidste om vores internetforbrug  
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                  og arbejder på at reducere vores klimaaftryk. 
+                </tspan>
+                </text>
+
               <text x="5" y="1050">
                 <tspan class="tidslinjeOverskrift" id="tilbyder" x="70" dy="-0.2em">Det tilbyder vi</tspan>
-                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">Beskrivelse af anden linje.</tspan>
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="3em">
+                  Hos Cybersphere er vi stolte af at være et af de førende
+                </tspan>
+              
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                  webbureauer inden for mere bæredygtigt webdesign. 
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                  Som kunde hos os kan du være sikker på, at dit website 
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                  ikke kun vil være smukt og funktionelt, men samtidig får
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                  du et website, der bidrager til en grønnere fremtid.
+                </tspan>
+              
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                  I et tæt samarbejde med dig og din virksomhed, finder 
+                </tspan>
+              
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                  vi den bedste løsning til at opnå dit ønskede resultat.
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                  Samtidig kan du have ro i sindet, da du ved, at dit 
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                  websted er udviklet af et bureau, der har en forpligtelse         
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                  til at beskytte vores planet.        
+                </tspan>
+
+               
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="4em">
+                Det vi gør, for at være mere bæredygtige, er blandt        
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                andet at sørge for at effektivisere vores kode. En      
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                kort og effektiviseret kode resulterer i hurtigere  
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                loading tid, som betyder mindre trafik på internettet 
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                og dermed mindre påvirkning af miljøet. Derudover sørger
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                vi for at dine billedefiler er komprimeret, så disse
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                fylder mindst muligt, men samtidigt står skarpt på din
+                </tspan>
+
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                skærm. Men bare rolig, den proces skal vi nok tage os af!  
+                </tspan>
               </text>
   
               <text x="5" y="1950">
-                <tspan class="tidslinjeOverskrift" id="losning" x="70" dy="1.5em">Løsning</tspan>
-                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">Beskrivelse af tredje linje.</tspan>
+                <tspan class="tidslinjeOverskrift" id="losning" x="70" dy="1.5em">Vi har løsningen</tspan>
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="4em">
+                  Skal du bruge en ny hjemmeside, visuel identitet eller noget 
+
+                  <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                  helt tredje? Lad Cybersphere hjælpe dig med det du mangler.       
+                </tspan>
+                  
+                <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
+                Vi kan det hele!  
+                </tspan>
+                  
+                </tspan>
               </text>
             </svg>
           </div>

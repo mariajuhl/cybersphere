@@ -11,23 +11,23 @@ export default function Footer() {
                 
                 <div className="footer">
                         <div>
-                        <h4>cybersphere@kontakt.dk</h4> 
+                        <p>cybersphere@kontakt.dk</p> 
 
-                        <h4>+45 12345069</h4> 
+                        <p>+45 12245069</p> 
 
-                        <h4>LinkedIn</h4> 
+                        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a> 
                         </div>
 
-                       
-                        <img className="logo" src={logo} alt="logo"/>
-                        
+                        <div className="logo">
+                            <a href={"/#top"}><img src={logo} alt="logo"/></a>
+                        </div>
 
                         <div className="textAlignRight">
-                        <h4>Gammel Kongevej 56</h4> 
+                        <p>Christiansgade 32</p> 
 
-                        <h4>1400 København K</h4> 
+                        <p>8000 Aarhus C</p> 
 
-                        <h4>CVR 52342012</h4> 
+                        <p>CVR 52342012</p> 
                         </div>
                 </div>
             </footer>

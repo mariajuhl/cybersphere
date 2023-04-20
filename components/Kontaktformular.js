@@ -30,52 +30,53 @@ function KontaktFormular() {
         </div>
       )}
 
-      <form onSubmit={handleSubmit}>
-        
-        <p htmlFor="firstName"className="marginTop">For- og efternavn:</p>
-        
-        <div>
-          <input
-            type="text"
-            id="firstName"
-            value={firstName}
-            onChange={(e) => setFirstName(e.target.value)}
-            className="inputFelt"
-            />
+<form onSubmit={handleSubmit}>
+  <label htmlFor="firstName" className="marginTop">For- og efternavn:</label>
+      <div>
+        <input
+          type="text"
+          id="firstName"
+          value={firstName}
+          onChange={(e) => setFirstName(e.target.value)}
+          className="inputFelt"
+          aria-labelledby="firstName"
+        />
+      </div>
 
-        </div>
+  <label htmlFor="companyName" className="marginTop">Virksomhedens navn:</label>
+      <div>
+        <input
+          type="text"
+          id="companyName"
+          value={companyName}
+          onChange={(e) => setCompanyName(e.target.value)}
+          className="inputFelt"
+          aria-labelledby="companyName"
+        />
+      </div>
 
-        <p htmlFor="companyName" className="marginTop">Virksomhedens navn:</p>
-        <div>
-          <input
-            type="text"
-            id="companyName"
-            value={companyName}
-            onChange={(e) => setCompanyName(e.target.value)}
-            className="inputFelt"
-          />
-        </div>
+  <label htmlFor="email" className="marginTop">E-mail:</label>
+      <div>
+        <input
+          type="email"
+          id="email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+          className="inputFelt"
+          aria-labelledby="email"
+        />
+      </div>
 
-        <p htmlFor="email" className="marginTop">E-mail:</p>
-        <div>
-          <input
-            type="email"
-            id="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            className="inputFelt"
-          />
-        </div>
-
-        <p htmlFor="message" className="marginTop">Fortæl om virksomheden og jeres ønsker:</p>
-        <div>
-          <textarea
-            id="message"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-            className="inputFelt tekstFelt" 
-          />
-        </div>
+  <label htmlFor="message" className="marginTop">Fortæl om virksomheden og jeres ønsker:</label>
+      <div>
+        <textarea
+          id="message"
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          className="inputFelt tekstFelt"
+          aria-labelledby="message"
+        />
+      </div>
 
         <button type="submit" className="knap link">Send besked</button>
 
