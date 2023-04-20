@@ -8,6 +8,9 @@ import animation from "../images/animation.mp4";
 import React, {useEffect} from "react";
 import ForsideLink from "../components/Knap";
 
+
+// Scroller til toppen, når man går ind på en underside 
+
 export default function Webapplikationer() {
     
     useEffect(() => {

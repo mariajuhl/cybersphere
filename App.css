@@ -111,6 +111,8 @@
     }
 }
 
+
+/*Baggrundsfarve og bredde på mainsektionen (tidslinjen)*/
 .mainSektion {
     background-color: #2D3F5E;
 }
@@ -119,6 +121,7 @@
     width: 65%;
 }
 
+/*Centrering af citat i midten af skærm*/
 .citat {
     margin: auto;
     text-align: center;
@@ -133,17 +136,20 @@
     padding-top: 30px;
 }
 
+/*Placering af tidslinjen*/
 .tidslinje {
     margin-left: 15%;
     margin-top: 200px;
 }
 
+/*Placering af "løsningskort" under sektionen "Vi har løsningen"*/
 .løsning {
     display: flex;
     width: 60%;
     margin-left: 15%;
 }
 
+/*Design af kort*/
 .kort {
     background-color:#E7E7E7;
     margin: 0px 15px;
@@ -156,6 +162,7 @@
     padding-bottom: 30px;
 }
 
+/*Design af skriften på "kortene"*/
 .link {
     text-decoration: none;
     color: #2D3F5E;
@@ -163,12 +170,7 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.tidslinje > svg > text {
-    word-wrap: break-word;
-    line-height: 1.2;
-    white-space: pre-line;
-}
-
+/*Placering af sektionen "Vores kunder"*/
 .voresKunder {
     margin-left: 15%;
     margin-top: 225px;
@@ -179,10 +181,12 @@
     margin-top: 50px;
 }
 
+/*Placering af "Kontakt os"-sektion*/
 #kontaktOs {
     margin-left: 15%;
 }
 
+/*Styling af pop up element efter tryk på "send besked"*/
 .popup {
     position: fixed;
     top: 0;
@@ -197,6 +201,7 @@
     z-index: 1;
   }
 
+/*Styling af "ok" knap ved pop-up besked*/
 .okKnap {
     padding: 10px;
     margin-left: 30px;
@@ -205,6 +210,7 @@
     color: #2D3F5E;
 }
 
+/*Design, størrelse og placring af input-felter i kontakt os formular*/
 .inputFelt {
     width: 400px;
     height: 40px;
@@ -222,8 +228,11 @@
 }
 
 
-/*----------------------------- Webudvikling -----------------------------*/ 
+/*----------------------------- UNDERSIDER -----------------------------*/ 
 
+/*Alle undersider bruger samme classes og har samme design*/
+
+/*Herosektionen på undersider*/
 .undersideHeroSektion {
     display: flex;
     width: 70%;
@@ -235,10 +244,12 @@
     width:90%;
 }
 
+/*Placering af animation i herosektionen på undersider*/
 .undersideHeroSektion > video {
     width: 70%;
 }
 
+/*Venstrestilling af sektion*/
 .venstrestillet {
     margin-top: 200px;
     margin-left: 10%;
@@ -249,12 +260,14 @@
     margin-top: 30px; 
 }
 
+/*Placering af sektionen om "Vores arbejdsmetode" på undersider*/
 .voresArbejdsmetode {
     margin-left: 10%;
     margin-top: 150px;
     width:70%;
 }
 
+/*Placering af "tidslinjen" til "Vores arbejdsmetode"*/
 .horisontalTidslinje > div{
     display: flex;
 }
@@ -280,6 +293,7 @@
     margin-top: 70px;
 }
 
+/*Styling af "Kontakt os og få et tilbud"-knap på undersider*/
 .knap {
     background-color: #FAA900;
     border: #2D3F5E;
@@ -291,6 +305,7 @@
 
 /*----------------------------- FOOTER -----------------------------*/ 
 
+/*Styling af footer*/
 .footer {
     background-color: #2D3F5E;
     display: block;

@@ -8,6 +8,8 @@ import kunder from "../images/kunder.png";
 import { Link } from 'react-router-dom';
 import KontaktFormular from '../components/Kontaktformular';
 
+
+//Ændre farve på navigationsbaren når der scrolles ned til "bølgen"
 export default function Forside() {
   const [hasScrolledToWave, setHasScrolledToWave] = useState(false);
 
@@ -25,6 +27,8 @@ export default function Forside() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+
+  //"fade reveal" effekt på citat 
   function revealOnScroll() {
     const sections = document.querySelectorAll(".fadeReveal");
 
@@ -169,8 +173,6 @@ export default function Forside() {
                 <tspan class="tidslinjeBeskrivelse" x="75" dy="2em">
                   til at beskytte vores planet.        
                 </tspan>
-
-               
 
                 <tspan class="tidslinjeBeskrivelse" x="75" dy="4em">
                 Det vi gør, for at være mere bæredygtige, er blandt        
